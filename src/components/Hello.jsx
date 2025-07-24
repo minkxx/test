@@ -14,7 +14,7 @@ export default function Hello() {
         <p className="text-center">Chrome version: {chrome_version}</p>
         <p className="text-center">Node version: {node_version}</p>
         <p className="text-center">Electron version: {electron_version}</p>
-        <p>Version v1.0.1</p>
+        <p>Version v1.0.2</p>
       </div>
       <div>
         <button className="px-2 py-1 rounded-lg bg-slate-900 shadow-2xl" onClick={() => setCounter(counter + 1)}>{counter} Clicks!!</button>
