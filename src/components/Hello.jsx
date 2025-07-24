@@ -8,13 +8,13 @@ export default function Hello() {
 
   return (
     <div className="flex flex-col gap-3 items-center justify-center min-h-screen">
-      <h1 className="text-3xl text-center">Electron with react and tailwind css starter code.</h1>
+      <h1 className="text-3xl text-center">Electron App</h1>
       <p className="text-center">~ Monsur</p>
       <div>
         <p className="text-center">Chrome version: {chrome_version}</p>
         <p className="text-center">Node version: {node_version}</p>
         <p className="text-center">Electron version: {electron_version}</p>
-        <p>Version v1.0.2</p>
+        <p className="text-center">Version v1.0.3</p>
       </div>
       <div>
         <button className="px-2 py-1 rounded-lg bg-slate-900 shadow-2xl" onClick={() => setCounter(counter + 1)}>{counter} Clicks!!</button>
